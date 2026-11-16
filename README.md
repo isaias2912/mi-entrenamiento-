@@ -33,10 +33,20 @@ Abrí `index.html` en el navegador. Los datos se guardan en el navegador de ese 
 
 Si el repo es público, cualquiera con el link puede ver la app, pero no tus datos, que quedan en tu navegador.
 
+## Instalarla como app
+
+La página es una app instalable (PWA) y funciona sin internet después de la primera visita.
+
+- **Android (Chrome)**: abrí el link y tocá **Instalar app** o el menú ⋮ → **Agregar a pantalla principal**.
+- **iPhone (Safari)**: abrí el link, tocá **Compartir** → **Agregar a pantalla de inicio**.
+
+Cuando subas una versión nueva de `index.html`, cambiá el número de `VERSION` en `sw.js` para que los celulares la actualicen.
+
 ## Estructura
 
 ```
 index.html   La app completa (HTML, CSS y JavaScript)
+manifest.webmanifest, sw.js, icon-192.png, icon-512.png, apple-touch-icon.png   Lo que la hace instalable y usable sin internet
 README.md    Este archivo
 PLAN.md      El plan de entrenamiento y hábitos en texto
 docs/plan_cuerpo_y_mente.xlsx   Planilla semanal de hábitos y seguimiento (Excel)
