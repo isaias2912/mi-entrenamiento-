@@ -1,6 +1,6 @@
 /* Modo sin conexión de Mi Entrenamiento.
    Cambiá el número de VERSION cada vez que subas una versión nueva de index.html. */
-const VERSION = "entrenamiento-v1";
+const VERSION = "entrenamiento-v2";
 const CORE = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png"];
 
 self.addEventListener("install", (e) => {
